@@ -9,6 +9,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.cjhlearn.lbsdemo.util.SHA1util;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,6 +48,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         printLog();
         super.onCreate(savedInstanceState);
+        Log.i("SHA1",SHA1util.sHA1(this));
     }
 
     @Override
