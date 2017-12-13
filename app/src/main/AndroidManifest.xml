@@ -25,15 +25,17 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="d983a400b7c47f4d4ff973f28ac66035"/>
+            android:value="e6935b92fc69edb4524452f9e6645ddc"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <service android:name="com.amap.api.location.APSService" ></service>
     </application>
 
 </manifest>

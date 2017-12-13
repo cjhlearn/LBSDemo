@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LBSDemo.iml" filepath="$PROJECT_DIR$/LBSDemo.iml" />
+      <module fileurl="file://G:\android\androidCode\LBSDemo\LBSDemo.iml" filepath="G:\android\androidCode\LBSDemo\LBSDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://G:\android\androidCode\LBSDemo\app\app.iml" filepath="G:\android\androidCode\LBSDemo\app\app.iml" />
     </modules>
   </component>
 </project>
